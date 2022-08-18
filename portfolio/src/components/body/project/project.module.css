@@ -1,0 +1,28 @@
+.project {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    border-top: 1px solid slategray;
+    padding: 0 2px 0 2px;
+    height: 600px;
+}
+
+.project_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.project_contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid black; */
+}
+
+.project_content {
+    width: 80%;
+    height: 80%;
+    border: 3px solid gray;
+}
