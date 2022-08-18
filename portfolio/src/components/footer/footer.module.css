@@ -1,0 +1,17 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+.footer_container {
+    background-color: whitesmoke;
+    height: 250px;
+    border-top: 1px solid slategray;
+}
+
+.footer_content {
+    margin: 30px;
+}
+
+.footer_content h3, .footer_content a {
+    font-weight: normal;
+    color: gray;
+    font-family: 'NanumSquare', sans-serif;
+}
