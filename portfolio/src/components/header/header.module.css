@@ -10,7 +10,8 @@
     grid-template-columns: auto 300px;
     text-align: center;
     position: absolute;
-    width: 99%;
+    /* position: fixed; */
+    width: 100%;
     height: 100px;
     z-index: 1;
 }
@@ -18,7 +19,6 @@
 .header_title_container{
     display: flex;
     align-items: center;
-    /* background-color: white; */
 }
 
 .header_title {
@@ -26,17 +26,29 @@
     margin-left: 30px;
     font-family: 'GongGothicLight';
     font-weight: bold;
+    color: black;
+    text-decoration: none;
 }
 
 .group_nav {
     display: flex;
     align-items: center;
     justify-items: center;
-    /* background-color: white; */
     z-index: 1;
 }
 
 .group_nav a {
     font-family: 'GongGothicLight';
     width: 100px;
+    cursor: pointer;
+}
+
+.group_nav a:hover {
+    color: gray;
+}
+
+.fixed_header, .fixed_title {
+    background-color: black;
+    color: white;
+    opacity: 70%;
 }
