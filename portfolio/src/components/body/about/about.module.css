@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 300px auto;
     height: 400px;
-    /* margin-top: 10px; */
 }
 
 .about_title_container {
