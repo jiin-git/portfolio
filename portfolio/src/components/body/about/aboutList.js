@@ -11,8 +11,7 @@ function AboutList() {
         ['학력', '전북대학교 컴퓨터공학(2022.2 졸업 예정)'],
     ];
 
-    const listItems = aboutLists.map((aboutList, index) => {
-        console.log(aboutList[0], aboutList[1]);
+    const listItems = aboutLists.map((aboutList) => {
         return (
             <ol key={aboutList[0]} className={fontstyle}>{aboutList[0]}: {aboutList[1]}</ol>
         );
