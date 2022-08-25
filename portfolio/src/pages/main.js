@@ -1,7 +1,8 @@
 import React from 'react';
-import Header from './header/header';
-import Body from './body/body';
-import Footer from './footer/footer';
+import '../styles/index.css';
+import Header from '../components/header/header';
+import Body from '../components/body/body';
+import Footer from '../components/footer/footer';
 
 function Main() {
     return (
