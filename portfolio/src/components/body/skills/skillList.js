@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './skills.module.css';
+import styles from '../../../styles/body/skills.module.css';
 import Skill from './skill';
 
 function SkillList(props) {

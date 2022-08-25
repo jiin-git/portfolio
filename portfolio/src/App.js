@@ -1,8 +1,7 @@
 import React from 'react';
-import { Routes, Route, Outlet } from 'react-router-dom';
-import './index.css';
-import Main from './components/main';
-import ThanksFor from './components/footer/thanksfor';
+import { Routes, Route } from 'react-router-dom';
+import Main from './pages/main';
+import ThanksFor from './pages/thanksfor';
 
 function App() {
   return (

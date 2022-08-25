@@ -1,5 +1,5 @@
 import React from 'react';
-import Fontstyle from '../body.module.css';
+import Fontstyle from '../../../styles/body/body.module.css';
 
 function SkillField(props) {
     const skillField = props.skillField;

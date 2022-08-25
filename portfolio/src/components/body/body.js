@@ -3,7 +3,7 @@ import Top from './top/top';
 import About from './about/about';
 import Skills from './skills/skills';
 import Project from './project/project';
-import styles from './body.module.css';
+import styles from '../../styles/body/body.module.css';
 
 function Body() {
     return (

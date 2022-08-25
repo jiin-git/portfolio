@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './footer.module.css';
+import styles from '../../styles/footer/footer.module.css';
 
 function Footer() {
     // useEffect(() => {

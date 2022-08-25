@@ -5,8 +5,8 @@ function Skill(props) {
     const [skillImg, setSkillImg] = useState(null);
 
     useEffect(() => {
-        setSkillImg(require(`./img/${skill}.png`));
-    }, [])
+        setSkillImg(require(`../../../assets/img/${skill}.png`));
+    }, []);
 
     return (
         <img src={skillImg} alt={skill}/>

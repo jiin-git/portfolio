@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './about.module.css';
-import Fontstyle from '../body.module.css';
+import styles from '../../../styles/body/about.module.css';
+import Fontstyle from '../../../styles/body/body.module.css';
 
 function AboutTitle() {
-    const fontstyle = Fontstyle.bodyFont;
+    const titleFont = Fontstyle.bodyTitle;
 
     return (
         <div className={styles.about_title_container}>
-            <div className={[styles.about_title, fontstyle].join(" ")}>About me</div>
+            <div className={titleFont}>About me</div>
         </div>
     );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderTitle from './headerTitle';
 import GroupNavigation from './groupNavigation';
-import styles from './header.module.css';
+import styles from '../../styles/header/header.module.css';
 
 function Header() {
     return (

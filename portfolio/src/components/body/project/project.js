@@ -1,17 +1,30 @@
 import React from 'react';
-import styles from './project.module.css';
-import Fontstyle from '../body.module.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import styles from '../../../styles/body/project.module.css';
+import Fontstyle from '../../../styles/body/body.module.css';
+import {Carousel} from 'react-responsive-carousel';
+import Css from '../../../assets/img/css3.png';
 
 function Project() {
-    const fontstyle = Fontstyle.bodyFont;
+    const titleFont = Fontstyle.bodyTitle;
     return (
-        <div className={styles.project}>
-            <div className={[styles.project_title, fontstyle].join(" ")}>
+        <div id='project' className={styles.project}>
+            <div className={titleFont}>
                 Project
             </div>
             <div className={styles.project_contents}>
                 <div className={styles.project_content}>
-                    
+                    <Carousel id={styles.carousel}>
+                        <div className={styles.carousel_img_container}>
+                            <img src={Css} alt="css"/>
+                        </div>
+                        <div className={styles.carousel_img_container}>
+                            <img src={Css} alt="css"/>
+                        </div>
+                        <div className={styles.carousel_img_container}>
+                            <img src={Css} alt="css"/>
+                        </div>
+                    </Carousel>
                 </div>
             </div>
         </div>

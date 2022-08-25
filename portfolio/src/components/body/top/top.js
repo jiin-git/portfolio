@@ -1,7 +1,7 @@
 import React from 'react';
 import TopImg from './topImg';
 import Introduce from './introduce';
-import styles from './top.module.css';
+import styles from '../../../styles/body/top.module.css';
 
 function Top() {
     return (

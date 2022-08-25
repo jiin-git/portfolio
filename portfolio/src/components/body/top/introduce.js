@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './top.module.css';
+import styles from '../../../styles/body/top.module.css';
+
 
 function Introduce() {
     return (
