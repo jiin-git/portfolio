@@ -6,14 +6,6 @@
     height: 600px;
 }
 
-.project_title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    font-style: italic;
-}
-
 .project_contents {
     display: flex;
     justify-content: center;
@@ -25,4 +17,18 @@
     width: 80%;
     height: 80%;
     border: 3px solid gray;
+}
+
+#carousel {
+    object-fit: contain;
+    height: 400px;
+}
+
+.carousel_img_container {
+    object-fit: contain;
+}
+
+.carousel_img_container img {
+    object-fit: contain;
+    height: 250px;
 }

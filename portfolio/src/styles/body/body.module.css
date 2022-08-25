@@ -11,6 +11,25 @@
     grid-template-rows: 400px 400px 600px 600px;
 }
 
+.bodyTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'paybooc-Bold';
+}
+
 .bodyFont {
     font-family: 'paybooc-Bold';
+}
+
+@media only screen and (max-width: 700px) {
+    .bodyFont {
+        font-size: 15px;
+    }
+
+    .bodyTitle {
+        font-size: 25px;
+    }
 }
