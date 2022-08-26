@@ -1,0 +1,13 @@
+#ThanksFor {
+    margin: 10px;
+}
+
+#ThanksFor a {
+    color: black;
+    text-decoration: none;
+}
+
+#ThanksFor a:hover {
+    text-decoration: underline;
+    color: gray;
+}
