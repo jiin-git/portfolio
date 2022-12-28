@@ -7,7 +7,7 @@ function AboutList() {
         ['이름', '배지인'], 
         ['생년월일', '99.11.19'], 
         ['E-mail', 'jiin.bae99@gmail.com'],
-        ['학력', '전북대학교 컴퓨터공학(2022.2 졸업 예정)'],
+        ['학력', '전북대학교 컴퓨터공학(2023.2 졸업 예정)'],
     ];
 
     const listItems = aboutLists.map((aboutList) => {
