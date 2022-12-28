@@ -10,25 +10,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 5px solid black; */
 }
 
-.project_content {
-    width: 80%;
-    height: 80%;
+.project_contents_container {
     border: 3px solid gray;
+    border-radius: 10px;
+    background-color: black;
+    width: 80%;
+    height: 90%;
 }
 
-#carousel {
-    object-fit: contain;
-    height: 400px;
-}
-
-.carousel_img_container {
+.project_img {
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
-.carousel_img_container img {
-    object-fit: contain;
-    height: 250px;
+.project_descriptions {
+    position: absolute;
+    width: 1130px;
+    height: 430px;
+    background-color: black;
+    opacity: 0;
+}
+
+.project_descriptions:hover {
+    opacity: 80%;
 }

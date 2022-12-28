@@ -12,12 +12,14 @@ function Project() {
                 Project
             </div>
             <div className={styles.project_contents}>
-                <div className={styles.project_content}>
-                    <Carousel id={styles.carousel}>
-                        <div className={styles.carousel_img_container}>
-                            <img src={MovieImg} alt="Movie"/>
-                        </div>
-                    </Carousel>
+                <div className={styles.project_contents_container}>
+                    {/* <div className={styles.project_descriptions}>
+                        <h2>프로젝트 명: </h2>
+                        https://jiin-git.github.io/movieWebService/
+                    </div> */}
+                    <a href="https://jiin-git.github.io/movieWebService/" target="_blank">
+                        <img className={styles.project_img} src={MovieImg} alt="Movie"/>
+                    </a>
                 </div>
             </div>
         </div>
