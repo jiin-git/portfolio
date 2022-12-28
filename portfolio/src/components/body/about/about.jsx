@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../../../styles/body/about.module.css';
 import AboutTitle from './aboutTitle';
 import AboutList from './aboutList';

@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../../../styles/body/about.module.css';
 import Fontstyle from '../../../styles/body/body.module.css';
 
