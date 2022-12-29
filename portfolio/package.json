@@ -13,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^3.1.0"
   },
-  "homepage": "https://jiin-git.github.io/portfolio",
+  "homepage": "https://jiin-git.github.io/portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
